@@ -1,0 +1,38 @@
+{
+  "stage_id": "1013R_R223U_SANDBOX_TEACHER_REVIEW",
+  "status": "sandbox_teacher_review_only",
+  "decision": "PASS_CONTINUE_TO_R223V_SANDBOX_REDUCTION_OR_PILOT_HOLD",
+  "source_stages": [
+    "1013R_R223T_FIXTURE_ONLY_SANDBOX_PREVIEW"
+  ],
+  "files": [
+    "R223U_teacher_review_script.md",
+    "R223U_sandbox_review_checklist.md",
+    "R223U_teacher_readability_review.md",
+    "R223U_v0_1_vs_v0_2_understandability_review.md",
+    "R223U_review_ledger_weight_review.md",
+    "R223U_component_trigger_semantics_review.md",
+    "R223U_continue_or_hold_decision.md",
+    "R223U_decision_report.md",
+    "README_FOR_GPT_REVIEW.md",
+    "validate_1013R_R223U_sandbox_teacher_review.py",
+    "validate_1013R_R223U_sandbox_teacher_review_result.json"
+  ],
+  "boundaries": {
+    "schema_v0_2_published": false,
+    "formal_ui": false,
+    "r97b_modified": false,
+    "formal_route_added": false,
+    "frontend_backend_modified": false,
+    "runtime_connected": false,
+    "provider_model_connected": false,
+    "prompt_modified": false,
+    "database_written": false,
+    "lesson_body_written": false,
+    "existing_teacher_drafts_modified": false,
+    "r222d_component_library_modified": false,
+    "formal_apply": false
+  },
+  "next_allowed": "1013R_R223V_SANDBOX_REDUCTION_OR_PILOT_HOLD"
+}
+
